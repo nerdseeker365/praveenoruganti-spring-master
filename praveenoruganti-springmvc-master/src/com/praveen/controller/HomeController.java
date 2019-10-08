@@ -10,18 +10,16 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class HomeController 
-{
+public class HomeController {
 	@GetMapping("/")
 	public String homeInit(Locale locale, Model model) {
 		return "home";
 	}
-	
-	@RequestMapping(value="/returnHelloWorld", method=RequestMethod.GET)
+
+	@RequestMapping(value = "/returnHelloWorld", method = RequestMethod.GET)
 	@ResponseBody
 	public String returnHelloMethod() {
-	    return "Hello world!";
+		return "Hello world!";
 	}
-	
-	
+
 }

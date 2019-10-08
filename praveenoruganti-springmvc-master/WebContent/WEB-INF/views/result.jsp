@@ -3,10 +3,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Spring MVC Demo</title>
 </head>
 <body>
-Result is ${result}
+<h2>User Data</h2>
+<table>
+<tr>
+<td>Name</td>
+<td>${user1.name}</td>
+</tr>
+<tr>
+<td>ID</td>
+<td>${user1.id}</td>
+</tr>
+</table>
 </body>
 </html>
