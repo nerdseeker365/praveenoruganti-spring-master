@@ -51,11 +51,11 @@ public class LoggingAspect {
 		System.out.println("******");
 	}
 
-	@Pointcut("execution(* com.praveen.aop.service.EmployeeService.addEmployee())")
+	@Pointcut("execution(* com.praveen.spring.aop.service.EmployeeService.addEmployee())")
 	public void addEmployee() {
 	}
 
-	@Around("execution(* com.praveen.aop.service.EmployeeService.modifyEmployee())")
+	@Around("execution(* com.praveen.spring.aop.service.EmployeeService.modifyEmployee())")
 	public void aroundAdvice(ProceedingJoinPoint pjp) throws Throwable {
 		System.out.println("Around Advice Initial message");
 		pjp.proceed();
