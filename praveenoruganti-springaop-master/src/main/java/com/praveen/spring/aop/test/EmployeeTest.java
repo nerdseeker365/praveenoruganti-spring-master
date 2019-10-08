@@ -14,16 +14,15 @@ public class EmployeeTest {
 
 		context = new AnnotationConfigApplicationContext(EmployeeConfig.class);
 
-        System.out.println("---------------------------------------");
+		System.out.println("---------------------------------------");
 
-        EmployeeService employeeService = context
-                .getBean(EmployeeService.class);
+		EmployeeService employeeService = context.getBean(EmployeeService.class);
 
-        employeeService.addEmployee();
+		employeeService.addEmployee();
 
-        employeeService.modifyEmployee();
+		employeeService.modifyEmployee();
 
-        employeeService.deleteEmployee();
+		employeeService.deleteEmployee();
 	}
 
 }
