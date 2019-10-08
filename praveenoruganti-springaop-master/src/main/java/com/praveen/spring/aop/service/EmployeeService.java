@@ -1,4 +1,4 @@
-package com.praveen.aop.service;
+package com.praveen.spring.aop.service;
 
 import org.springframework.stereotype.Service;
 

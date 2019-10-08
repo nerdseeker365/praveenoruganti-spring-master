@@ -1,4 +1,4 @@
-package com.praveen.aop.aspect;
+package com.praveen.spring.aop.aspect;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;

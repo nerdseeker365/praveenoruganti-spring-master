@@ -1,10 +1,10 @@
-package com.praveen.aop.test;
+package com.praveen.spring.aop.test;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.praveen.aop.config.EmployeeConfig;
-import com.praveen.aop.service.EmployeeService;
+import com.praveen.spring.aop.config.EmployeeConfig;
+import com.praveen.spring.aop.service.EmployeeService;
 
 public class EmployeeTest {
 

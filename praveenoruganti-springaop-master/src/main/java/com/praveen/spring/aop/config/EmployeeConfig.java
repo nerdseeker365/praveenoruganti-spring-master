@@ -1,14 +1,14 @@
-package com.praveen.aop.config;
+package com.praveen.spring.aop.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import com.praveen.aop.service.EmployeeService;
+import com.praveen.spring.aop.service.EmployeeService;
 
 
 @Configuration
-@ComponentScan(basePackages = "com.praveen.aop")
+@ComponentScan(basePackages = "com.praveen.spring.aop")
 public class EmployeeConfig {
 	@Bean(name="employeeService")
 	public EmployeeService getBean() {		
