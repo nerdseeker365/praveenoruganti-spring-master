@@ -2,7 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.praveen.spring.jdbc</groupId>
   <artifactId>praveenoruganti-springjdbc-master</artifactId>
-  <version>1.0</version>
+  <name>praveenoruganti-springjdbc-master</name>
+  <description>praveenoruganti-springjdbc-master</description>
+  <version>1.0</version>  
  <dependencies>
 		<dependency>
 			<groupId>commons-logging</groupId>

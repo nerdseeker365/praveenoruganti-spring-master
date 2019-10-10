@@ -4,6 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.praveen.spring.aop</groupId>
 	<artifactId>praveenoruganti-springaop-master</artifactId>
+	<name>praveenoruganti-springaop-master</name>
+	<description>praveenoruganti-springaop-master</description>
 	<version>1.0</version>
 	<dependencies>
 		<dependency>

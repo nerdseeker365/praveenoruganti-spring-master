@@ -4,6 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.praveen.spring.core</groupId>
 	<artifactId>praveenoruganti-springcore-master</artifactId>
+	<name>praveenoruganti-springcore-master</name>
+	<description>praveenoruganti-springcore-master</description>
 	<version>1.0</version>
 	<dependencies>
 		<dependency>

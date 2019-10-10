@@ -4,7 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>SpringMVCExample</groupId>
 	<artifactId>SpringMVCExample</artifactId>
-	<version>2.0</version>	
+	<name>SpringMVCExample</name>
+ 	<description>praveenoruganti-springmvc-master</description>
+	<version>1.0</version>	
 	<properties>
 		<failOnMissingWebXml>false</failOnMissingWebXml>
 		<spring.version>5.0.0.RELEASE</spring.version>
